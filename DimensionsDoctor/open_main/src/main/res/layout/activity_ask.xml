@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_14"
+        android:layout_marginRight="@dimen/dp_14"
+        android:layout_marginTop="@dimen/dp_30"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_36"
+            android:id="@+id/edit_q"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/kname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#3087ea"
+                android:textSize="@dimen/sp_18"
+                android:text="急诊科"
+                />
+
+            <EditText
+                android:id="@+id/search_et"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20"
+                android:background="@drawable/search_bg"
+                android:layout_height="@dimen/dp_36"
+                android:hint="请输入病症名称或关键字"
+                />
+
+            <ImageButton
+                android:id="@+id/ling"
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:background="@drawable/common_nav_message_black_n"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/top_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/back_b"
+                android:layout_width="@dimen/dp_16"
+                android:layout_height="@dimen/dp_16"
+                android:background="@drawable/common_icon_back_black_n" />
+
+            <ImageButton
+                android:id="@+id/message_b"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/common_nav_message_black_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_6"
+            android:background="#dddd" />
+
+        <RelativeLayout
+            android:id="@+id/re_lin"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_36">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/title_top"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_36"></androidx.recyclerview.widget.RecyclerView>
+
+            <ImageButton
+                android:id="@+id/search_bt"
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/common_icon_search_n" />
+        </RelativeLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_4"
+            android:background="#dddd" />
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/list_item_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

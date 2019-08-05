@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ManageActivity">
+
+    <LinearLayout
+        android:id="@+id/imag_lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginRight="@dimen/sp_14"
+        android:layout_marginLeft="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_40"
+        >
+        <ImageButton
+            android:layout_width="@dimen/dp_16"
+            android:layout_height="@dimen/dp_16"
+            android:id="@+id/back_f"
+            android:background="@drawable/common_icon_back_black_n"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="#333333"
+                android:text="真实姓名"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张三"
+                android:id="@+id/myname"
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_12"
+                android:layout_alignParentRight="true"
+                />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="#333333"
+                android:text="所属医院"
+                />
+
+            <TextView
+                android:id="@+id/hospitol_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXXX医院"
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_12"
+                android:layout_alignParentRight="true"
+                />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="#333333"
+                android:text="所属科室"
+                />
+
+            <TextView
+                android:id="@+id/keshi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="儿科"
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_12"
+                android:layout_alignParentRight="true"
+                />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="#333333"
+                android:text="职称"
+                />
+
+            <TextView
+                android:id="@+id/job_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="副主任医师"
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_12"
+                android:layout_alignParentRight="true"
+                />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+
+        <TextView
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_14"
+            android:textColor="#333333"
+            android:text="个人介绍"
+            />
+
+        <TextView
+            android:id="@+id/jieshao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textColor="#666666"
+            android:text="胜多负少多付多过多付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_14"
+            android:textColor="#333333"
+            android:text="擅长领域"
+            />
+
+        <TextView
+            android:id="@+id/goods_j"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:textColor="#666666"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="胜多负少多付多过多付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_10"
+            android:layout_gravity="center"
+            android:textColor="#3087ea"
+            android:layout_marginTop="@dimen/dp_70"
+            android:text="如需更改以上信息  请致电0005967432"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/all_b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_14"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginRight="@dimen/dp_14"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/back_my"
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:background="@drawable/common_icon_back_black_n" />
+
+            <ImageButton
+                android:id="@+id/message_my"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/common_nav_message_black_n" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/changeimg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_275"
+            android:background="@drawable/boy">
+
+            <ImageView
+                android:id="@+id/myimage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_275"
+                android:background="@drawable/user_bg"
+                />
+
+            <TextView
+                android:id="@+id/loade_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/dp_255"
+                android:text="查看更多资料>>"
+                android:textColor="#3087ea"
+                android:textSize="14sp"  />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp_10"
+               >
+
+                <LinearLayout
+                    android:id="@+id/my_history"
+                    android:layout_width="@dimen/dp_130"
+                    android:layout_height="@dimen/dp_140"
+                    android:background="@drawable/tit_bbg"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/mycar"
+                        android:layout_width="@dimen/dp_24"
+                        android:layout_height="@dimen/dp_24"
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:background="@drawable/my_icon_historical"
+                        android:padding="@dimen/dp_20" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mycar"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="历史问诊"
+                        android:textColor="#333333"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/my_wallet"
+                    android:layout_width="@dimen/dp_130"
+                    android:layout_height="@dimen/dp_140"
+                    android:background="@drawable/tit_bbg"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/myticket"
+                        android:layout_width="@dimen/dp_24"
+                        android:layout_height="@dimen/dp_24"
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:background="@drawable/my_icon_wallet_n"
+                        android:padding="@dimen/dp_20" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/myticket"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="我的钱包"
+                        android:textColor="#333333"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp_10"
+                >
+
+                <LinearLayout
+                    android:id="@+id/my_recommendations"
+                    android:layout_width="@dimen/dp_130"
+                    android:layout_height="@dimen/dp_140"
+                    android:background="@drawable/tit_bbg"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/myca"
+                        android:layout_width="@dimen/dp_24"
+                        android:layout_height="@dimen/dp_24"
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:background="@drawable/my_icon_recommendations_adopted_n"
+                        android:padding="@dimen/dp_20" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/myca"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="被采纳建议"
+                        android:textColor="#333333"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/my_automatic"
+                    android:layout_width="@dimen/dp_130"
+                    android:layout_height="@dimen/dp_140"
+                    android:background="@drawable/tit_bbg"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/myticke"
+                        android:layout_width="@dimen/dp_24"
+                        android:layout_height="@dimen/dp_24"
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:background="@drawable/my_icon_automatic_response_n"
+                        android:padding="@dimen/dp_20" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/myticke"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="设置自动回复"
+                        android:textColor="#333333"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

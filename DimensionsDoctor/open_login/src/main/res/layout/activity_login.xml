@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:src="@drawable/login_bg"
+        android:background="@drawable/login_bg"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_45"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="@dimen/dp_24"
+                    android:layout_height="@dimen/dp_24"
+                    android:background="@drawable/login_icon_mail_n"
+                    android:id="@+id/log_mail"
+                    />
+                <EditText
+                    android:id="@+id/log_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/log_mail"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:hint="请输入邮箱账号"
+                    android:textSize="@dimen/sp_14"
+                    android:background="@android:color/transparent"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="#999999"
+                        android:layout_below="@+id/log_edit"
+                    android:layout_marginTop="@dimen/dp_8"
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp_17"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="@dimen/dp_24"
+                    android:layout_height="@dimen/dp_24"
+                    android:background="@drawable/login_icon_lock_n"
+                    android:id="@+id/log_lock"
+                    />
+                <EditText
+                    android:id="@+id/log_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/log_lock"
+                    android:layout_marginLeft="@dimen/dp_8"
+                    android:inputType="textPassword"
+                    android:hint="请输入密码"
+                    android:textSize="@dimen/sp_14"
+                    android:background="@android:color/transparent"
+                    />
+                <ImageView
+                    android:id="@+id/log_eye"
+                    android:layout_width="@dimen/dp_16"
+                    android:layout_height="@dimen/dp_16"
+                    android:background="@drawable/select_bg"
+                    android:layout_alignParentRight="true"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="#999999"
+                    android:layout_below="@+id/log_pwd"
+                    android:layout_marginTop="@dimen/dp_8"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <Button
+                    android:id="@+id/log_rem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@android:color/transparent"
+                    android:text="忘记密码"
+                    android:textSize="10sp"
+                    />
+                <Button
+                    android:id="@+id/log_reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:layout_alignParentRight="true"
+                    android:text="申请入驻"
+                    android:textSize="@dimen/sp_14"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:textColor="#3087ea"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/log_go"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_40"
+            android:textColor="#fff"
+            android:text="登录"
+            android:textSize="@dimen/sp_16"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

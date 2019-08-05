@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.InfomationActivity">
+
+    <LinearLayout
+        android:id="@+id/imag_lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/sp_14"
+        android:layout_marginLeft="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_40"
+        >
+        <ImageButton
+            android:layout_width="@dimen/dp_16"
+            android:layout_height="@dimen/dp_16"
+            android:id="@+id/back_f"
+            android:background="@drawable/common_icon_back_black_n"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="#333333"
+                android:text="真实姓名"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张三"
+                android:id="@+id/myname"
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_12"
+                android:layout_alignParentRight="true"
+                />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="#333333"
+                android:text="所属医院"
+                />
+
+            <TextView
+                android:id="@+id/hospitol_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXXX医院"
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_12"
+                android:layout_alignParentRight="true"
+                />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="#333333"
+                android:text="所属科室"
+                />
+
+            <TextView
+                android:id="@+id/keshi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="儿科"
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_12"
+                android:layout_alignParentRight="true"
+                />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="#333333"
+                android:text="职称"
+                />
+
+            <TextView
+                android:id="@+id/job_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="副主任医师"
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_12"
+                android:layout_alignParentRight="true"
+                />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+
+        <TextView
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_14"
+            android:textColor="#333333"
+            android:text="个人介绍"
+            />
+
+        <TextView
+            android:id="@+id/jieshao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textColor="#666666"
+            android:text="胜多负少多付多过多付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_14"
+            android:textColor="#333333"
+            android:text="擅长领域"
+            />
+
+        <TextView
+            android:id="@+id/goods_j"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:textColor="#666666"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="胜多负少多付多过多付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付付"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_10"
+            android:layout_gravity="center"
+            android:textColor="#3087ea"
+            android:layout_marginTop="@dimen/dp_70"
+            android:text="如需更改以上信息  请致电0005967432"
+            />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="doctor.wd.com.open_main">
+
+    <application>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.AskActivity" />
+        <activity android:name=".activity.ManageActivity" />
+        <activity android:name=".activity.InquiryActivity" />
+        <activity android:name=".activity.MessageActivity" />
+        <activity android:name=".activity.InfomationActivity" />
+        <activity android:name=".activity.AutomaticActivity" />
+        <activity android:name=".activity.Hmoney2Activity" />
+        <activity android:name=".activity.AskmessageActivity" />
+        <activity android:name=".activity.SystemeassageActivity" />
+        <activity android:name=".activity.AgreadActivity" />
+        <activity android:name=".activity.WalltActivity" />
+        <activity android:name=".activity.WithdrawActivity" />
+        <activity android:name=".RecordActivity" />
+        <activity android:name=".activity.wode.BindActivity" />
+        <activity android:name=".activity.wode.CircleInfoActivity" />
+        <activity android:name=".activity.wode.SearchActivity" />
+        <activity android:name=".activity.search.CustomActivity" />
+        <activity android:name=".activity.wode.IMInquiryActivity" />
+        <activity android:name=".activity.wode.UserInfoActivity" />
+        <activity android:name=".activity.HistroyActivity" />
+        <activity android:name=".activity.idcard.BandShowActivity" />
+        <activity android:name=".activity.idcard.BankScanActivity" />
+        <activity android:name=".activity.idcard.CameraScanActivity" />
+        <activity android:name=".activity.idcard.OtherSideActivity" />
+        <activity android:name=".activity.idcard.PositiveActivity" />
+        <activity android:name=".activity.idcard.RealNameActivity" />
+        <activity android:name=".activity.BindiDentityCard"></activity>
+    </application>
+
+</manifest>

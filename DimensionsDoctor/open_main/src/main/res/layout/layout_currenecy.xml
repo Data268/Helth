@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/code_bg"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/cur_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/sp_10"
+            android:text="放得开功夫格斗房购房贷款购房贷款股份大幅度"
+            android:textColor="#333333"
+            android:textSize="12sp"
+            android:layout_marginTop="@dimen/dp_14"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_12"
+            >
+
+            <TextView
+                android:id="@+id/cur_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019"
+                android:textSize="@dimen/sp_10"
+                android:textColor="#333333"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="立即查看"
+                android:id="@+id/cur_chakan"
+                android:textSize="@dimen/dp_10"
+                android:layout_alignParentRight="true"
+                android:textColor="#3087ea"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

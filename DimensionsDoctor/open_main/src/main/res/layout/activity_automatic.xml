@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AutomaticActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/sp_14"
+        android:layout_marginRight="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_35"
+        >
+
+    <ImageButton
+        android:layout_width="@dimen/dp_16"
+        android:layout_height="@dimen/dp_16"
+        android:id="@+id/back_a"
+        android:background="@drawable/common_icon_back_black_n"
+        />
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置自动回复"
+            android:textSize="@dimen/sp_16"
+            android:textColor="#333333"
+            />
+
+        <Switch
+            android:id="@+id/start_s"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_20"
+            android:layout_alignParentRight="true"
+            />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ask_ing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在忙,稍后为您解答!"
+                android:textSize="@dimen/sp_12"
+                android:textColor="#333333"
+                />
+
+            <RadioButton
+                android:id="@+id/ask_ing_b"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_20"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_20"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/detail_please"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请先详细描述下您的情况!"
+                android:textSize="@dimen/sp_12"
+                android:textColor="#333333"
+                />
+
+            <RadioButton
+                android:id="@+id/detail_please_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_20"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_20"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/time_hint"
+                android:layout_width="@dimen/dp_240"
+                android:layout_height="wrap_content"
+                android:text="我每天下午5:00-7:00之间有空,将会在那个时间段回复您."
+                android:textSize="@dimen/sp_12"
+                android:textColor="#333333"
+                />
+
+            <RadioButton
+                android:id="@+id/time_hint_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_20"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_20"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自定义"
+                android:textSize="@dimen/sp_14"
+                android:textColor="#3087ea"
+                />
+
+            <RadioButton
+                android:id="@+id/custom_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_20"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_20"
+                />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:background="@drawable/code_bg"
+            android:layout_marginTop="@dimen/sp_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/my_edit_custom"
+                android:layout_marginTop="@dimen/sp_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginRight="@dimen/sp_10"
+                android:layout_marginBottom="@dimen/sp_14"
+                android:background="@android:color/transparent"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

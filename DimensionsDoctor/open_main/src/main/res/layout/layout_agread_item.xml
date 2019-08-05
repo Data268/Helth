@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:id="@+id/head_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:orientation="vertical"
+            >
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/user_hand"
+                android:layout_width="@dimen/dp_50"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/dp_50"
+                android:layout_marginTop="@dimen/dp_20"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张三"
+                android:id="@+id/user_name"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/m"
+            android:layout_marginLeft="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_toRightOf="@+id/head_t"
+            >
+            <TextView
+                android:id="@+id/usr_tit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="房购房贷款"
+                android:textColor="#333333"
+                android:textSize="@dimen/sp_14"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:orientation="horizontal"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_12"
+                android:text="主要病症:"
+                android:textColor="#333333"
+                />
+                <TextView
+                    android:id="@+id/user_ill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_12"
+                    android:text="22222"
+                    android:textColor="#333333"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_below="@+id/m"
+                android:layout_marginLeft="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_toRightOf="@+id/head_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_12"
+                    android:text="采纳时间:"
+                    android:textColor="#333333"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_12"
+                    android:id="@+id/user_time"
+                    android:text="322222"
+                    android:textColor="#333333"
+                    />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dddddd"
+            />
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的建议"
+        android:textSize="@dimen/sp_14"
+        android:textColor="#333333"
+        />
+    <TextView
+        android:id="@+id/my_suggest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="的疯狂的方法快到点了局开发看看开发开放可可粉反反复复木木付木木付木木木付木付木付木方面父母没法没法没法没法买方方面面方面"
+        />
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#dddddd"
+        />
+    </LinearLayout>
+</LinearLayout>
